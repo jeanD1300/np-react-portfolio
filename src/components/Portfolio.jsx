@@ -9,22 +9,22 @@ const Portfolio = () => {
     {
       id: 1,
       src: Quiz,
-      href: 'https://github.com/',
+      href: 'https://clever-syrniki-712962.netlify.app',
     },
     {
       id: 2,
       src: Form,
-      href: 'https://github.com/',
+      href: 'https://form-gender5486.netlify.app',
     },
     {
       id: 3,
       src: Shop,
-      href: 'https://github.com/',
+      href: 'https://vermillion-shopping.netlify.app',
     },
     {
       id: 4,
       src: Blog,
-      href: 'https://github.com/',
+      href: 'https://bucolic-blog.netlify.app',
     },
   ]
   return (
