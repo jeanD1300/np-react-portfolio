@@ -28,7 +28,7 @@ const Portfolio = () => {
     },
   ]
   return (
-    <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
+    <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full h-full text-white md:h-screen'>
 
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
 
@@ -41,13 +41,12 @@ const Portfolio = () => {
 
           {portfolios.map(({ id, src, href }) => (
 
-            <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+            <div key={id} className='shadow-md shadow-gray-600 rounded-lg w-fit'>
 
               <img src={src} alt={src} className='rounded-md duration-200 hover:scale-105' />
 
               <div className='flex items-center justify-center'>
-                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' ><a href={href} target='_blank' rel="noreferrer">Demo</a></button>
-                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' >Code</button>
+                <button className='w-1/4 px-auto py-1 m-3 duration-200 hover:scale-105' ><a href={href} target='_blank' rel="noreferrer">Demo</a></button>
 
               </div>
 
