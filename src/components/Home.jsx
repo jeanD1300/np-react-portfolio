@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsArrowRightCircle } from "react-icons/bs"
-import  Profile  from "../assets/profile.jpg"
+// import  Profile  from "../assets/profile.jpg"
 import { Link } from 'react-scroll'
 
 const Home = () => {
