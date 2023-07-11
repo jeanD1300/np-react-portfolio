@@ -1,5 +1,5 @@
 import React from 'react'
-import quiz from '../assets/quiz.png'
+import Quiz from '../assets/Quiz.png'
 import quiznapat from '../assets/quiznapat.png'
 import Form from '../assets/Form.png'
 import Formio from "../assets/form-hook.png"
@@ -10,7 +10,7 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: quiz,
+      src: Quiz,
       href: 'https://quiz-reacttest11.netlify.app',
       title: 'Quiz Test'
     },
