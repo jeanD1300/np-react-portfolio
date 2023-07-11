@@ -1,10 +1,9 @@
 import React from 'react'
 import quiz from '../assets/quiz.png'
-import Quiz2 from '../assets/Quiz2.png'
+import quiznapat from '../assets/quiznapat.png'
 import Form from '../assets/Form.png'
 import Formio from "../assets/form-hook.png"
 import Shop from '../assets/Shop.png'
-// import Blog from '../assets/Blog.png'
 import digitalclock from "../assets/digitalclock.png"
 
 const Portfolio = () => {
@@ -29,7 +28,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: Quiz2,
+      src: quiznapat,
       href: 'https://clever-syrniki-712962.netlify.app/',
       title: "Napat's Quiz"
     },
