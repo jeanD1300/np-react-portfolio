@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsArrowRightCircle } from "react-icons/bs"
-import  Profile1  from "../assets/profile1.jpg"
+import  Profile  from "../assets/profile.jpg"
 import { Link } from 'react-scroll'
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <img src={Profile1} alt='mypicture' className='rounded-3xl w-2/4 ml-4 mx-3 sm:w-2/4'/>
+        <img src='https://images.unsplash.com/photo-1484665739383-a1069a82d4be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE5fHxwcm9ncmFtbWluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60' className='rounded-3xl w-1/4 ml-4 mx-3 sm:w-2/4'/>
       </div>
     </div>
   )
