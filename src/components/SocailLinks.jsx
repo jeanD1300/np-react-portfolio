@@ -12,7 +12,7 @@ const SocailLinks = () => {
                     LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'http://LinkedIn.com',
+            href: 'https://www.linkedin.com/in/napat-kwanthongyim-923468245/',
             style: 'rounded-tr-md'
         },
         {
@@ -22,7 +22,7 @@ const SocailLinks = () => {
                     Github <FaGithub size={30} />
                 </>
             ),
-            href: 'http://github.com',
+            href: 'https://github.com/jeanD1300',
         },
         {
             id: 3,
